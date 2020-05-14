@@ -1,4 +1,4 @@
-Pipeline {
+pipeline {
   agent {
     dockerfile {
       dir 'cicd-k8s'
