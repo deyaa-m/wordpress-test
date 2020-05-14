@@ -1,7 +1,7 @@
 pipeline {
   agent {
     dockerfile {
-      dir 'cicd-k8s'
+      dir './'
       filename 'Dockerfile'
       registryUrl 'https://hub.docker.com/r/deyaa/app'
     }
