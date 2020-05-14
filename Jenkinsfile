@@ -6,7 +6,7 @@ pipeline {
       registryUrl 'https://hub.docker.com/r/deyaa/app'
     }
   }
-  stages 'push'{
+  stages ('push'){
     stage {
       steps {
       echo 'hello world'
