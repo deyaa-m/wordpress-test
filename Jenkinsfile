@@ -1,7 +1,7 @@
 pipeline {
   agent {
     dockerfile {
-      dir './'
+      dir '.'
       filename 'Dockerfile'
       registryUrl 'https://hub.docker.com/r/deyaa/app'
     }
